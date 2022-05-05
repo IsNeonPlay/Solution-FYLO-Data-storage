@@ -1,0 +1,150 @@
+/******************** GENERAL STYLES *******************/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+  /***** General Colors 👇 *****/
+  --BG-Ctn-Color: hsl(228, 56%, 26%);
+  --Paragraph-Color: hsl(229, 7%, 70%);
+  --Span-Color: hsl(243, 100%, 93%);
+  /***** Other Colors 👇 *****/
+  --Bg-Icons-Color: hsl(229, 57%, 11%);
+  --Bg-Chart: hsl(229, 55%, 18%);
+  --Gradient-Chart: linear-gradient(60deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  /***** Font Family 👇 *****/
+  --Font: 'Raleway', sans-serif;
+  /***** Border Containers 👇 *****/
+  --Border-ctn: .6em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--Bg-Icons-Color);
+  background-image: url(../images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/******************** MAIN *******************/
+.main {
+  margin: 120px auto;
+  width: 328px;
+  font-family: var(--Font);
+  font-weight: 500;
+  color: var(--Paragraph-Color);
+  display: grid;
+  gap: 16px;
+}
+/********** Container 1 *********/
+.main__ctn-1 {
+  padding: 41px 40px 45px;
+  height: 205px;
+  background-color: var(--BG-Ctn-Color);
+  border-radius: var(--Border-ctn) 100px var(--Border-ctn) var(--Border-ctn);
+  display: grid;
+  gap: 32px;
+}
+.main__ctn-1-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.main__ctn-1-icons-bg {
+  width: 49px;
+  height: 49px;
+  background-color: var(--Bg-Icons-Color);
+  border-radius: var(--Border-ctn);
+}
+.icons {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/********** Container 2 *********/
+.main__ctn-2 {
+  padding: 34px;
+  max-width: 540px;
+  height: 170px;
+  text-align: center;
+  background-color: var(--BG-Ctn-Color);
+  border-radius: var(--Border-ctn);
+  display: grid;
+  gap: 18px;
+}
+.main__ctn-2-text span {
+  font-weight: 600;
+  color: var(--Span-Color);
+}
+.main__ctn-2-storange {
+  display: grid;
+  gap: 13px;
+}
+.main__ctn-2-storange-chart {
+  width: 100%;
+  height: 20px;
+  background-color: var(--Bg-Chart);
+  border-radius: var(--Border-ctn);
+}
+.main__ctn-2-storange-chart-full {
+  width: 73%;
+  height: 13px;
+  background-image: var(--Gradient-Chart);
+  border-radius: var(--Border-ctn);
+  position: relative;
+  top: 4.2px;
+  left: 3px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: 1.5px;
+  left: 177.5px;
+}
+.main__ctn-2-storange-numbers {
+  display: flex;
+  justify-content: space-between;
+  color: var(--Span-Color);
+  font-weight: 600;
+}
+.main__ctn-2-free-space {
+  margin: 0 auto;
+  padding: 22px;
+  width: 180px;
+  height: 67px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+  border-radius: .25em;
+  display: flex;
+  align-items: center;
+}
+.main__ctn-2-free-space span {
+  font-size: 13px;
+  color: var(--Paragraph-Color);
+  position: relative;
+  bottom: 7px;
+}
+
+/******************** FOOTER *******************/
+.attribution { 
+  font-size: 11px; 
+  font-weight: 600;
+  color: var(--Span-Color);
+  text-align: center;
+}
+.attribution a { 
+  color: hsl(335, 100%, 65%); 
+}
