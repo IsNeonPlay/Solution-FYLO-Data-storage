@@ -3,7 +3,7 @@ Front-end Mentor Junior challenge solved By IsNeonPlay
 
 [![desktop-preview.jpg](https://i.postimg.cc/9Qtg0Dnv/desktop-preview.jpg)](https://postimg.cc/Yv0zyCk3)
 
-## // ESPAÑOL // 🇪🇸 
+# // ESPAÑOL // 🇪🇸 
 
 Otro reto Junior de Front-end Mentor resuelto por IsNeonPlay. Este fue otro de esos retos que para desarrollarlo parace ser difícil, pero en realidad es bastante sencillo para ser un reto junior, simplemente use css `flex` y me divertí bastante haciendolo y no se me complicó para nada.
 
@@ -32,7 +32,7 @@ left: 146px;
 ### Tengo que recalcar que el triangulo lo edité en la versión para escritorio, si no se aplicará también a la versión de movil.
 
 
-## // ENGLISH // 🇬🇧 
+# // ENGLISH // 🇬🇧 
 
 Another Front-end Mentor Junior challenge solved by IsNeonPlay. This was another one of those challenges that looks hard to develop, but it's actually pretty easy for a junior challenge, just use css `flex` and I had a lot of fun doing it and it wasn't complicated at all.
 
